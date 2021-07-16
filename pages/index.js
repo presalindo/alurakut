@@ -17,9 +17,11 @@ export default function Home() {
   const pessoasFavoritas = [
     'juunegreiros',
     'omariosouto',
+    'akitaonrails',
+    'robsonvleite',
+    'guhweb',
     'peas',
-    'rafaballerini',
-    'marcobrunodev',
+    'rafaballerini2',
     'felipefialho'
   ]
 
