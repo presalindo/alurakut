@@ -22,7 +22,8 @@ export default function Home() {
     'guhweb',
     'peas',
     'rafaballerini2',
-    'felipefialho'
+    'felipefialho',
+    'galvao'
   ]
 
   return (
