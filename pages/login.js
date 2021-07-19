@@ -5,7 +5,7 @@ import nookies from 'nookies';
 
 export default function LoginScreen() {
   const router = useRouter();
-  const [githubUser, setGithubUser] = React.useState('omariosouto');
+  const [githubUser, setGithubUser] = React.useState('presalindo');
 
   return (
     <main style={{ display: 'flex', flex: 1, alignItems: 'center', justifyContent: 'center' }}>
@@ -23,7 +23,7 @@ export default function LoginScreen() {
                 infosDoEvento.preventDefault();
                 // alert('Alguém clicou no botão!')
                 console.log('Usuário: ', githubUser)
-                fetch('https://alurakut.vercel.app/api/login', {
+                fetch('https://alurakut-beta-two.vercel.app/api/login', {
                     method: 'POST',
                     headers: {
                        'Content-Type': 'application/json'  

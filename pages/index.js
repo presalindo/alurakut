@@ -66,7 +66,7 @@ export default function Home(props) {
   // 0 - Pegar o array de dados do github 
   React.useEffect(function() {
     // GET
-    fetch('https://api.github.com/users/peas/followers')
+    fetch(`https://api.github.com/users/${usuarioAleatorio}/followers`)
     .then(function (respostaDoServidor) {
       return respostaDoServidor.json();
     })
