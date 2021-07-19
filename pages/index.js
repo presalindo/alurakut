@@ -57,8 +57,10 @@ export default function Home(props) {
     'omariosouto',
     'peas',
     'rafaballerini',
-    'marcobrunodev',
-    'felipefialho',
+    'galvao',
+    'robsonleite',
+    'akitaonrails',
+    'guhweb',
   ]
   const [seguidores, setSeguidores] = React.useState([]);
   // 0 - Pegar o array de dados do github 
